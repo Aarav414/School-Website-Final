@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+</html>
+
+
+
+<body>
+    <nav class="navbar-inverse" style="postion:sticky;top:0;z-index:99999;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Burgmann Anglican School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campuslife">Campus Life</a></li>
+                <li><a href="#achievements">Acheivements</a></li>
+                <li><a href="new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="announcment">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask any questions at school.gmail.com ***
+        </marquee>
+    </div>
+
+    <iframe id="video" src=""></iframe>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+        <h2 class="text-capitalize ">news about environment</h2>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Forde Campus Tour</h4> <img src="e1.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The Forde Campus tour at Burgmann Anglican School is conducted with Mr Steven Bowers, the School Principal, at our Forde Campus. This tour takes between 45 to 60 minutes and will depart from the Forde Front Office Foyer. Please note that numbers are limited for the School tours and individual tours cannot be catered for.</p>
+        </li>
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Valley Senior School Tour</h4> <img src="e3.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The Senior School tour at Burgmann Anglican School is conducted with Mr Steven Bowers, the School Principal, at our Valley Campus. This tour takes between 45 to 60 minutes and will depart from the Front Office Foyer. Please note that numbers are limited for the School tours and individual tours cannot be catered for.</p>
+        </li>
+    </ul>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#school_library"> <img src="01_carroll_school_library-e1512575507152.jpg" class="img-responsive">
+        <hr>
+        <p class="text-primary">School Library</p>
+    </div> <!-- Modal -->
+    <div class="modal fade" id="school_library">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">School Library</h4>
+                </div>
+                <div class="modal-body"> <img src="01_carroll_school_library-e1512575507152.jpg" class="img-responsive img_modal">
+                    <p class="p_modal">The Burgmann libraries are a place where students can read books, find information, study, play on computers, draw, and have fun.The Burgmann School library is one library with two branches. Both library spaces are light filled and designed with plenty of flexible learning spaces for large group work through to individual reading nooks. Students are encouraged to borrow books and Oliver, our remote borrowing system, means that reading never has to stop!<br> <a href="https://www.burgmann.act.edu.au/about/facilities/library"><b>SCHOOL LIBRARY</b></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
